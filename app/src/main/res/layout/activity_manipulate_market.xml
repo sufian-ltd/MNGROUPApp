@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".ManipulateMarketActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/btn1"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="market management"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please fill the boxes if you have transaction with this market"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn2"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="7dp">
+
+    </Spinner>
+    <EditText
+        android:id="@+id/etDes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Description"
+        android:background="@drawable/btn2"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etPaid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Paid Amount"
+        android:background="@drawable/btn2"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:inputType="number"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etDue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Due Amount"
+        android:inputType="number"
+        android:background="@drawable/btn2"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to save"
+        android:onClick="save"
+        android:background="@drawable/btn1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="7dp"/>
+</LinearLayout>

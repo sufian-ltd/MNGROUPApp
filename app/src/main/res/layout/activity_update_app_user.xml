@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".UpdateAppUserActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/btn8"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="Update App User"/>
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter new Market Name"
+        android:background="@drawable/btn9"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Location"
+        android:background="@drawable/btn9"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Contact : "
+        android:background="@drawable/btn9"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn9"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Click here to save"
+        android:onClick="save"
+        android:background="@drawable/btn8"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_margin="7dp"/>
+
+</LinearLayout>
